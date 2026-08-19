@@ -1,0 +1,7 @@
+# Carpetas de salida y compilación
+out/
+bin/
+
+# Archivos y carpetas de configuración de IntelliJ
+.idea/
+*.iml
