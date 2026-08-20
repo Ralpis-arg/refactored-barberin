@@ -6,6 +6,9 @@ public class Client {
     String surName;
     String phoneNumber;
 
+    Client client = new Client(String name , String surName , String phoneNumber){
+
+    };
 
 
 
