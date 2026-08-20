@@ -7,9 +7,16 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        String name = "";
-        String surName = "";
-        String phoneNumber = "";
+        Client client = createClient(scanner);
+
+        scanner.close();
+        
+    }
+    public static Client createClient(Scanner scanner) {
+
+        String name;
+        String surName;
+        String phoneNumber;
 
         System.out.println("Please, enter your name: ");
         name = scanner.nextLine();
@@ -20,14 +27,9 @@ public class Main {
         System.out.println("Enter your phone number so we can contact you");
         phoneNumber = scanner.nextLine();
 
-
-        //Client client = new Client(name, surName, phoneNumber);
-
+        return new Client(name, surName, phoneNumber);
 
 
 
-
-        scanner.close();
-        
     }
 }

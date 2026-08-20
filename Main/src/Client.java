@@ -6,10 +6,14 @@ public class Client {
     String surName;
     String phoneNumber;
 
-    Client client = new Client(String name , String surName , String phoneNumber){
+    public Client(String name , String surName , String phoneNumber){
+        this.name = name;
+        this.surName = surName;
+        this.phoneNumber = phoneNumber;
 
-    };
+    }
 
-
-
+    public String getName() {
+        return name;
+    }
 }
