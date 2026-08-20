@@ -8,7 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         Client client = createClient(scanner);
-
         scanner.close();
         
     }
