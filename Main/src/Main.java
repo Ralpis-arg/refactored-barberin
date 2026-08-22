@@ -9,6 +9,8 @@ public class Main {
 
         Client client = createClient(scanner);
         scanner.close();
+
+        System.out.println(client.getName());
         
     }
     public static Client createClient(Scanner scanner) {
@@ -26,8 +28,8 @@ public class Main {
         System.out.println("Enter your phone number so we can contact you");
         phoneNumber = scanner.nextLine();
 
-        return new Client(name, surName, phoneNumber);
 
+        return new Client(name, surName, phoneNumber);
 
 
     }
