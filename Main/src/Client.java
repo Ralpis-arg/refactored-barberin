@@ -2,9 +2,9 @@ public class Client {
 
     // A client has attributes
 
-    String name;
-    String surName;
-    String phoneNumber;
+    private String name;
+    private String surName;
+    private String phoneNumber;
 
     public Client(String name , String surName , String phoneNumber){
         this.name = name;
@@ -15,5 +15,11 @@ public class Client {
 
     public String getName() {
         return name;
+    }
+    public String getSurName() {
+        return surName;
+    }
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 }

@@ -11,6 +11,8 @@ public class Main {
         scanner.close();
 
         System.out.println(client.getName());
+        System.out.println(client.getSurName());
+        System.out.println(client.getPhoneNumber());
         
     }
     public static Client createClient(Scanner scanner) {
